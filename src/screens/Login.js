@@ -20,7 +20,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import {List} from './list'
+
 export const Login = ({navigation}) => {
   textInput = {
     backgroundColor: "#fff",
@@ -44,7 +44,7 @@ export const Login = ({navigation}) => {
 
       <View style={{backgroundColor: "#eaebe3", flex: 1, justifyContent: "center" }}>
         <Text style={{alignContent: "center", textAlign: "center", fontSize: 35,color: "black"}}> Login </Text>
-        <Text style={{alignContent: "center", textAlign: "center", fontSize: 18,color: "black"}}>{inputText.length}</Text>
+        <Text style={{alignContent: "center", textAlign: "center", fontSize: 18,color: "black"}}></Text>
         <View style={{marginTop: 20, marginRight: 25, marginLeft: 25}}>
           <TextInput
            placeholder="Enter Name"

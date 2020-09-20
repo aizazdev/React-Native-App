@@ -31,7 +31,6 @@ import {Login} from './src/screens/Login';
 import {Register} from './src/screens/Register';
 import {Wellcome} from './src/screens/wellcome';
 import {Counter} from './src/screens/counter';
-import {List} from './src/screens/list'
 const Stack = createStackNavigator();
 const App: () => React$Node = () => {
 
@@ -43,7 +42,6 @@ const App: () => React$Node = () => {
           <Stack.Screen name="Login" component={Login} />
           <Stack.Screen name="Register" component={Register} />
           <Stack.Screen name="Counter" component={Counter} />
-          <Stack.Screen name="List" component={List} />
         </Stack.Navigator>
       </NavigationContainer>
     </>
