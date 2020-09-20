@@ -31,7 +31,7 @@ export const Login = ({navigation}) => {
 
   userInput = ()=> {
     if(inputPassword.length < 6 ) {
-      alert('Password Needs to 6 characters long');
+      alert('Password Needs to be 6 characters long');
     } else {
       alert('Great you are Awesome');
     }
